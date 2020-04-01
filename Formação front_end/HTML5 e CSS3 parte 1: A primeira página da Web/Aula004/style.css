@@ -1,0 +1,35 @@
+
+/* Aplica os estilos en todos body */
+body {
+    background: #cccccc;
+}
+
+/* referente a configuração da pagina */
+#benner {
+    width: 100%;
+}
+
+/* Aplica os estilos en todos h1 */
+h1 {
+    text-align: center;
+}
+
+/* p:  Aqui esse efeito sera adicionado em todos os paragrafos. */
+p{
+    text-align: center;
+}
+
+/* Aplica esses efeitos apenas nesse lugar especifico */
+#missao {
+    font-size: 20px;
+}
+
+/* Aplica esses efeitos só em informações que estão dentro do   <em> <strong> */
+em strong {
+    color: #ff0000;
+}
+
+.itens {
+     font-style: italic;
+}
+
