@@ -1,0 +1,87 @@
+<!-- tipo de documento -->
+<!DOCTYPE html>
+
+<!-- conteudo do html -->
+<html>
+    <!-- informações/instruções para pagina -->
+    <head>
+        <!-- dicionario de caracteres -->
+        <meta charset="UTF-8">
+        <!-- titulo da pagina -->
+        <title>Contato - Barbearia Alura</title>
+        <!-- importando as configurações de aparencia do CSS -->
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <!-- informações que serão mostradas. -->
+    <body>
+        <header>
+            <div class="caixa">
+                <!-- importando uma imagem -->
+                <h1><img src="./imagens/logo.png" alt="Logo da Barbearia Alura"></h1>
+                <!-- nav === para itens de navegação. -->
+                <nav>
+                    <ul>
+                        <!-- lista não ordenada -->
+                        <!-- <a></a>  === serve para colocar um link para outra pagina -->
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contato.html">Contatos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        <!-- Cabeçalho, onde fica o conteúdo superior da pagina -->
+        </header>
+        <main>
+            <!-- Para caixas de informações -->
+            <form>
+                <!-- é o nome que aparece junto com a caixa que vai recever a informação -->
+                <!-- for="" serve para ligar o label com input por isso precisam ter o msm nome. -->
+                <label for="nomeSobrenome">Nome e sobrenome:</label>
+                <!-- ele que pega a informação que foi inserida -->
+                <input type="text" id="nomeSobrenome" class="input-padrao" required placeholder="nome completo">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+
+                <label for="mensagem">Mensagem</label>
+                <!-- serve para recever textos com mais de uma linha. -->
+                <textarea cols="30" rows="10" class="input-padrao" required></textarea>
+
+                <!-- usado quando a pagina for receber informações -->
+                <fieldset>
+                    <legend>Como prefere o nosso contato?</legend>
+                    <!-- type="radio" serve para colocar itens de escolha, se vc escolher um o outro desmarca. -->
+                    <!-- nesse caso o input esta dentro do label, mas poderia ser fora -->
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+                    
+                </fieldset>
+
+                <fieldset>
+                    <legend>Qual horário prefere ser atendido?</legend>
+                    <select name="" id="">
+                        <option value="">Manhã</option>
+                        <option value="">Tarde</option>
+                        <option value="">Noite</option>
+                    </select>
+                </fieldset>
+                <!-- uma opção clicavel. sim/não... -->
+                <label class="checkbox"> <input type="checkbox" checked> Gostaria de receber nossas novidade por email?</label>
+                <!-- submit  seria como o botão de enviar/confirmar -->
+                <input type="submit" value="Enviar Formulário">
+            </form>
+        </main>
+        <!-- Rodapé, onnde fica o conteúdo inferior da página -->
+        <footer>
+            <!-- alt   seria uma forma de descrever oq é aquela imagem -->
+            <img src="./imagens/logo-branco.png" alt="Logo da Barbearia Alura">
+            <p class="copyright">&copy; Copyright Barbearia Alura - 2020</p>
+        </footer>
+    </body>
+</html>
