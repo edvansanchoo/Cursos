@@ -1,0 +1,5 @@
+Nesta aula, aprendemos:
+
+A utilizar fontes externas nas nossas páginas
+Como incorporar um mapa à nossa página
+Como incorporar um vídeo à nossa página
