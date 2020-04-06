@@ -1,0 +1,109 @@
+
+header {
+    background: #bbbbbb;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.cabecalho {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cabecalho h1 {
+    text-align: center;
+}
+
+/* referente a configuração da pagina */
+#benner {
+    width: 100%;
+}
+
+.principal {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.principal .mensagem {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.titulo-principal {
+    padding-left: 20px;
+}
+
+/* Aplica os estilos en todos h1 */
+.titulo-centralizado {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* p:  Aqui esse efeito sera adicionado em todos os paragrafos. */
+p{
+    text-align: center;
+}
+
+/* Aplica esses efeitos só em informações que estão dentro do   <em> <strong> */
+em strong {
+    color: #ff0000; 
+}
+
+.itens {
+     font-style: italic;
+}
+
+.beneficios {
+    background: #ffffff;
+    padding: 20px;
+}
+
+
+.beneficios ul {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15%;
+}
+
+.beneficios ul .itens {
+    margin: 0 1.5%;
+    width: 90%;
+    margin-top: 10px;
+    text-align: center;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+
+}
+
+.imgBeneficios {
+    width: 50%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    background: url('./imagens/bg.jpg');
+    padding: 40px;
+}
+
+.copyright {
+    font-size: 13px;
+    color: #ffffff;
+    margin-top: 20px;
+}
