@@ -41,63 +41,6 @@ nav a:hover {
     text-decoration: underline;
 }
 
-.produtos {
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px 0;
-}
-
-.produtos li {
-    display: inline-block;
-    text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
-
-    /* border-color: #000000;
-    border-width: 2px;
-    border-style: solid; */
-    /* os 3 stilos de cima é o mesmo que o de baixo so que em uma linha */
-    border: 2px solid #000000;
-
-    /* para arredondar a borda */
-    border-radius: 10px;
-}
-/* :hover  Quando o mouse passar por cima do item ele ira sofre uma alteração */
-.produtos li:hover {
-    border-color: #c78c19;
-
-}
-/* :active  Quando o mouse clicar em cima do item ele ira sofre uma alteração */
-.produtos li:active {
-    border-color: #088c19;
-}
-
-
-.produtos li:hover h2 {
-    font-size: 34px;
-}
-
-.produtos h2 {
-    /* tamanho da fonte */
-    font-size: 30px;
-    /* peso no caso seria um negrito */
-    font-weight: bold;
-}
-
-.produto-descricao {
-    font-size: 18px;
-}
-
-.produto-preco {
-    font-size: 22px;
-    font-weight: bold;
-    /* tamanho da margim em cima(top) */
-    margin-top: 10px;
-}
-
 footer {
     text-align: center;
     background: url("./imagens/bg.jpg");
@@ -146,7 +89,7 @@ form label, form legend {
 
 .enviar:hover {
     background: darkorange;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 table {
@@ -278,3 +221,5 @@ td, th {
         width: 100%;
     }
 }
+
+
