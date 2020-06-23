@@ -1,0 +1,24 @@
+
+<meta charset="UTF-8">
+
+<script>
+    
+    function pulalinha(){
+        document.write("<br>");
+    }
+
+    function mostra(mensagem){
+        document.write(mensagem);
+        pulalinha();
+    }
+
+    var ano = 2030;
+
+    mostra("Marcos nasceu em: " + (ano - 32));
+    mostra("Lucas nasceu em: " + (ano - 21));
+    mostra("João nasceu em: " + (ano - 55));
+    var media = (21 + 32 + 65) / 3;
+
+    mostra("A média das idades é: " + Math.round(media));
+
+</script>
