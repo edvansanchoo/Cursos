@@ -1,0 +1,28 @@
+
+<meta charset="UTF-8">
+
+<script>
+    
+    function pulalinha(){
+        document.write("<br>");
+    }
+
+    function mostra(mensagem){
+        document.write(mensagem);
+        pulalinha();
+    }
+
+    var totalIdades = 0;
+    var quantidadeFamiliares = parseInt(prompt("Quantos familiares tem na sua casa? "));
+
+    for(var i = 0; i < quantidadeFamiliares; i++){
+        var idade = parseInt(prompt("Digite sua idade: "));
+        totalIdades += idade;
+    }
+    var media = totalIdades / quantidadeFamiliares;
+
+    mostra(media);
+
+
+    
+</script>

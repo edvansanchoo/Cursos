@@ -1,0 +1,23 @@
+
+<meta charset="UTF-8">
+
+<script>
+    
+    function pulalinha(){
+        document.write("<br>");
+    }
+
+    function mostra(mensagem){
+        document.write(mensagem);
+        pulalinha();
+    }
+
+    var anoLimite = prompt("Digite o ano limite: ");
+    var anoCopa = 1930;
+
+    while(anoCopa < anoLimite){
+        mostra("Teve copa em: " + anoCopa);
+        anoCopa += 4;
+    }
+    
+</script>
