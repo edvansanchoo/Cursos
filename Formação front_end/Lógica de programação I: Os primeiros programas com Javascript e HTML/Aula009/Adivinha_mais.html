@@ -4,7 +4,36 @@
 <input type="text">
 <button>Enviar</button>
 <script>
-    var segredo = [5, 6, 7];
+
+    function sorteia(){
+        return Math.round(Math.random()*10);
+    }
+
+
+    function sorteiaNumeros(numero){
+        lista = [];
+        for(var i = 0; i < numero; i++){
+            var numeroSorteado = sorteia();
+            var achou = false;
+
+            if(numeroSorteado != 0){
+                for(i in lista){
+                    if(lista[i] == numeroSorteado)
+                    achou = true;
+                }
+                
+                if(!achou){
+                    lista.push(numeroSorteado);
+                }
+            }
+
+        }
+        return lista;
+    }
+
+    var segredo = sorteiaNumeros(5);
+
+    console.log(segredo);
 
     var input = document.querySelector("input");
     input.focus();
